@@ -1,0 +1,42 @@
+1.BASIC NAVIGATION COMMANDS
+
+pwd _  Displays the current directory
+ls _ Lists files and directories
+ls -l _ Lists files with details
+ls -a _ Shows hidden files
+cd directory _ Moves into a directory
+cd .. _ Moves to the parent directory
+cd ~ _ Moves to the home directory
+clear _ Clears the terminal screen
+
+
+2. FILE AND DIRECTORY COMMANDS
+
+touch file.txt _Creates an empty file
+mkdir folder _  Creates a directory
+mkdir -p a/b   _Creates nested directories
+cp file.txt copy.txt_  Copies a file
+mv old.txt new.txt_ Renames or moves a file
+rm file.txt_    Deletes a file
+rmdir folder_   Removes an empty directory
+cat file.txt_   Displays file contents
+less file.txt_  Views a file page by page
+head file.txt_  Displays the first 10 lines
+tail file.txt_  Displays the last 10 lines
+
+
+3. FILE SEARCH AND TEXT COMMANDS 
+
+find . -name "*.txt"_  Finds text files
+grep "error" file.txt _ Searches for a word
+wc -l file.txt _ Counts lines
+sort file.txt _ Sorts lines
+uniq file.txt _ Removes adjacent duplicate lines
+
+4.PERMISSIONS AND USERS
+
+whoami _ Displays the current username
+id _ Displays user and group IDs
+chmod 755 file.sh_ Changes file permissions
+chown user file.txt _ Changes file ownership; may require elevated privileges
+sudo command _ Runs a command with elevated privileges
